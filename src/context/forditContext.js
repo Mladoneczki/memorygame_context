@@ -28,7 +28,7 @@ export const ForditProvider = ({ children }) => {
         id1=kepL[index].id
         console.log(kepL[index].id)
         
-        setTimeout(()=>{setlista(visszaFordit(id1, id2, segedLista, index,elozoIndex))},3000)
+        setTimeout(()=>{setlista(visszaFordit(id1, id2, segedLista, index,elozoIndex))},2000)
         
       }
       else{setId(kepL[index].id)

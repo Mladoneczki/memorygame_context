@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { ForditContext } from './context/forditContext';
+import { useContext } from 'react';
+import Kepek from './components/Kepek';
 
 function App() {
+  const {allapotLista} =useContext(ForditContext)
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <h3>Memory Game</h3>
       </header>
+      <article>
+      <div className="jatekter">
+          <Kepek lista={allapotLista}/>
+        </div>
+      </article>
     </div>
   );
 }

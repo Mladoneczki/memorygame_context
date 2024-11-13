@@ -24,7 +24,8 @@
   color: white;
 }
 .jatekter{
-  margin: auto;
+  margin-left: 390px;
+  margin-top:40px;
  
   display: grid;
   grid-template-columns: repeat(4, 130px);

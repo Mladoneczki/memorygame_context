@@ -41,7 +41,7 @@ export const ForditProvider = ({ children }) => {
       setTimeout(() => {
         setLista(model.visszaFordit(id1, id2, segedLista, index, elozoIndex));
         setKattinthato(true)
-      }, 2000);
+      }, 1000);
     } else {
       setId(kepL[index].id);
       console.log(kepL[index].id);

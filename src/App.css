@@ -35,6 +35,7 @@
 .jatekter img{
   height: 120px;
   width: 90px;
+  cursor: pointer;
 }
 
 .App-link {

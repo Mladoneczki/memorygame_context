@@ -39,6 +39,10 @@
 .App-link {
   color: #61dafb;
 }
+.hasznalt{
+  pointer-events: none;
+  filter: grayscale();
+}
 
 @keyframes App-logo-spin {
   from {
